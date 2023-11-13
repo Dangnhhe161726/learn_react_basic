@@ -1,0 +1,49 @@
+button {
+    cursor: pointer;
+}
+
+.body {
+    .body-add {
+        margin-bottom: 20px;
+    }
+
+    .body-list-add {
+        width: 400px;
+        margin-left: 80px;
+
+        .todo-child {
+            width: 100%;
+            border-bottom: 1px solid white;
+            display: flex;
+            height: 60px;
+            line-height: 60px;
+
+            &:first-child {
+                border-top: 1px solid white;
+            }
+
+            .todo-child-content {
+                width: 60%;
+                text-align: left;
+
+                span {
+                    color: yellow;
+                }
+            }
+
+            .todo-child-action {
+                width: 40%;
+                text-align: right;
+
+                button {
+                    color: red;
+
+                    &:first-child {
+                        margin-right: 10px;
+                        color: violet;
+                    }
+                }
+            }
+        }
+    }
+}

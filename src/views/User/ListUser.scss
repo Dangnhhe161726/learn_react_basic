@@ -1,0 +1,30 @@
+td {
+    padding: 5px 15px;
+}
+
+.user-detail {
+    width: 100%;
+    height: auto;
+
+    .user-detail-return {
+        text-align: left;
+        margin: 50px 0 0 100px;
+
+        button {
+            padding: 10px;
+            font-size: 10px;
+            font-weight: bold;
+            color: red;
+        }
+    }
+
+    .user-detail-content {
+        h1 {
+            color: violet;
+        }
+
+        table {
+            margin-left: 300px;
+        }
+    }
+}
